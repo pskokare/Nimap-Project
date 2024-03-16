@@ -1,0 +1,160 @@
+
+
+.popup {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  
+}
+.popup-inner {
+  background-color: rgb(181, 181, 204);
+  width: 600px;
+  height: auto; /* Adjust height automatically based on content */
+ ; /* Limit the maximum height to 90% of the viewport height */
+  overflow:scroll; /* Allow vertical scrolling if needed */
+  height: 650px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.content {
+  align-self: flex-start; /* Position content at the top left corner */
+}
+
+.register {
+  text-align: center;
+  color: white;
+}
+
+.register h1 {
+  margin: 0;
+}
+
+.register p {
+  margin: 0;
+}
+
+.register i{
+ float: right;
+  color: #bc0a0a;
+  top: 50px;
+  background-color: aliceblue;
+  width: 30px;
+  height: 32px;
+  
+ 
+}
+
+.register a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.avatar-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.upload-photo {
+  margin-right: 20px; /* Adjust the margin between the avatar and the name section */
+}
+
+.name-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-info {
+  margin-bottom: 30px;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+.form-info input {
+  width: 350px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+}
+
+.upload-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: darkgreen;
+}
+
+.form-info {
+  position: relative;
+}
+
+.form-info {
+  margin-bottom: 10px;
+}
+
+.form-info label {
+  display: inline-block;
+  width: 120px; /* Adjust as needed */
+}
+
+.form-info input[type="range"] {
+  width: calc(100% - 20px); /* Adjust width to accommodate margin */
+  height: 30px; /* Adjust height as needed */
+  padding: 5px; /* Adjust padding as needed */
+  margin-left: -10px; /* Move the slider slightly to the left */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-info {
+  margin-bottom: 10px;
+}
+
+.form-info label {
+  display: inline-block;
+  width: 120px; /* Adjust as needed */
+}
+
+.form-info select {
+  width: 350px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  padding: 5px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.txt_field {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.txt_field input {
+  width: 350px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  padding: 8px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add border to match other text fields */
+  border-radius: 4px; /* Add border-radius to match other text fields */
+  margin-left: 10px; /* Adjust margin-left as needed */
+}
